@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[\begin{figure}[${1:!htp}]
+  \begin{minipage}[t]{${2:0.5\linewidth}}
+    \centering
+    \includegraphics[width=${4:0.9}\linewidth]{$5}
+    \caption{$6}
+  \end{minipage}%
+  \begin{minipage}[t]{${3:0.5\linewidth}}
+    \centering
+    \includegraphics[width=${4:0.9}\linewidth]{$7}
+    \caption{$8}
+  \end{minipage}
+\end{figure}]]></content>
+    <tabTrigger>minipage</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>LaTeX figure insert</description>
+</snippet>

@@ -1,0 +1,58 @@
+[
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+    { "keys": ["ctrl+alt+t"], "command": "open_terminal" },
+    // Go to left bracket
+    {
+        "keys": ["ctrl+up"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["ctrl+down"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
+    },
+
+    //LaTeX leftright
+    { "keys": ["ctrl+shift+9"],  
+        "context":  [
+            {"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+        "command": "insert_snippet", "args": {"name":"Packages/User/LyuSnippetForLatex/LaTeXLeftRight()Lyu.sublime-snippet"}},
+    { "keys": ["ctrl+["],  
+        "context":  [
+            {"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+        "command": "insert_snippet", "args": {"name":"Packages/User/LyuSnippetForLatex/LaTeXLeftRight[]Lyu.sublime-snippet"}},
+    { "keys": ["ctrl+shift+["],  
+        "context":  [
+            {"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+        "command": "insert_snippet", "args": {"name":"Packages/User/LyuSnippetForLatex/LaTeXLeftRight{}Lyu.sublime-snippet"}},
+    { "keys": ["ctrl+shift+,"],  
+        "context":  [
+            {"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+        "command": "insert_snippet", "args": {"name":"Packages/User/LyuSnippetForLatex/LaTeXLeftRightlaraLyu.sublime-snippet"}},
+        { "keys": ["ctrl+shift+."],  
+        "context":  [
+            {"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+        "command": "insert_snippet", "args": {"name":"Packages/User/LyuSnippetForLatex/LaTeXLeftRightdotvertLyu.sublime-snippet"}}
+]

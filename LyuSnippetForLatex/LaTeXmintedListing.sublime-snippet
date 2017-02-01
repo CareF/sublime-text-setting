@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[\begin{listing}[!htp]
+  ${5:\begin{minted\}[linenos, gobble=2, tabsize=4]{${3:C++}\}
+  ${0:/* A Sample for minted.. A new try*/
+    #include <stdio>
+    int main(){
+      printf("Hello world!..\n");
+      return 0;
+    \}}
+  \end{minted\}}
+  ${4:% \inputminted[linenos, tabsize=4, style=xcode]{${3:C++}\}{temp.cpp\}}
+  \caption{${1:listing}\label{lst:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3)/g}}}}
+\end{listing}]]></content>
+    <tabTrigger>lst</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>LaTeX minted listing</description>
+</snippet>

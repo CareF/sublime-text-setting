@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"IMESupport",
+		"LaTeXTools",
+		"PackageResourceViewer",
+		"SublimeCodeIntel"
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ChannelRepositoryTools",
+		"ConvertToUTF8",
+		"IMESupport",
+		"LaTeXTools",
+		"Markdown Preview",
+		"Package Control",
+		"PackageResourceViewer",
+		"Rainbowth",
+		"ShowTexdoc",
+		"SublimeCodeIntel",
+		"Terminal",
+		"Theme - Flatland"
+	]
+}

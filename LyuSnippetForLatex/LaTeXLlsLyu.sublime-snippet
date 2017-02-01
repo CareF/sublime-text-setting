@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\begin{lstlisting}[language=${1:C++}, caption=${2:listing}, label=lst:${3:${2/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$2$3)/g}}]
+$0
+\end{lstlisting}]]></content>
+    <tabTrigger>lst</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>LaTeX listing environment</description>
+</snippet>

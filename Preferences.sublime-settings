@@ -1,0 +1,44 @@
+{
+	"added_words":
+	[
+		"sublicense",
+		"Lyu",
+		"Eq",
+		"Zeeman",
+		"Tsinghua",
+		"Laflamme",
+		"decoherence",
+		"qubit",
+		"Numerov",
+		"matplotlib",
+		"discretize",
+		"biconditional",
+		"instantaneity",
+		"memes",
+		"smartphones",
+		"quadra",
+		"dephasing"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_face": "Consolas",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"IMESupport",
+		"LaTeXTools",
+		"PackageResourceViewer",
+		"SublimeCodeIntel",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"sidelobe"
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"spell_check": false,
+	"translate_tabs_to_spaces": true
+}

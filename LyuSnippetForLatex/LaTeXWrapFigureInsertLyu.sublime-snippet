@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\begin{wrapfigure}{${1:r}}{${2:0.3}\linewidth}
+  \includegraphics[width=0.9\linewidth]{$3}
+  \caption{$0}
+\end{wrapfigure}
+]]></content>
+    <tabTrigger>wrap</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>LaTeX wrap figure insert</description>
+</snippet>

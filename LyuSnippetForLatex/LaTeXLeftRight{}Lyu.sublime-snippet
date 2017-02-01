@@ -1,0 +1,9 @@
+<snippet>
+    <description>Left Right ()</description>
+    <content><![CDATA[
+\\left\\\{${1:$SELECTION}\\right\\\}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <scope>text.tex.latex</scope>
+</snippet>

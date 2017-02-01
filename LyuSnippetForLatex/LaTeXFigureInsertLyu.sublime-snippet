@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[\begin{figure}[${1:!htp}]
+ \centering
+ \includegraphics[width=${2:0.8}\linewidth]{$3}
+ \caption{$0}
+\end{figure}
+]]></content>
+    <tabTrigger>fig</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>LaTeX figure insert</description>
+</snippet>

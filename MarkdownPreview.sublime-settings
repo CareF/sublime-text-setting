@@ -1,0 +1,4 @@
+{
+    "build_action": "build",
+    "enabled_parsers": ["markdown"]
+}

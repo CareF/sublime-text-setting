@@ -1,0 +1,11 @@
+<snippet>
+    <description>Python comment header</description>
+    <content><![CDATA[#!/usr/bin/env python
+# -*- coding: ${1:utf-8} -*-
+# Filename: ${2:${TM_FILENAME}}
+# Author:   Lyu Ming <CareF.Lm@gmail.com>
+
+]]></content>
+    <tabTrigger>pyheader</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
